@@ -34,7 +34,7 @@ class _MyHomeState extends State<MyHome> {
           child: Card(
             color: const Color(0xff252525),
             shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+                RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -61,7 +61,7 @@ class _MyHomeState extends State<MyHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: const Color.fromARGB(255, 1, 5, 51),
       extendBodyBehindAppBar: true,
       appBar: AppBar(
         leading: PopupMenuButton(
@@ -134,7 +134,7 @@ class _MyHomeState extends State<MyHome> {
       ),
       body: SlidingSheet(
         elevation: 8,
-        cornerRadius: 50,
+        cornerRadius: 25,
         snapSpec: const SnapSpec(
           snap: true,
           snappings: [0.38, 0.7, 0.9],
@@ -183,6 +183,7 @@ class _MyHomeState extends State<MyHome> {
             ),
           ],
         ),
+        color: Colors.black,
         builder: (context, state) {
           return Container(
             margin: const EdgeInsets.only(left: 20, right: 20, top: 30),
@@ -192,7 +193,10 @@ class _MyHomeState extends State<MyHome> {
               children: [
                 const Text(
                   'Specialized in',
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white),
                 ),
                 const SizedBox(
                   height: 10,

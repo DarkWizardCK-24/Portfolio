@@ -92,9 +92,9 @@ class _MyExperienceState extends State<MyExperience> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: const Color.fromARGB(255, 1, 5, 51),
       appBar: AppBar(
-        backgroundColor: const Color(0xff252525),
+        backgroundColor: Colors.transparent,
         title: const Text(
           'Experience',
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),

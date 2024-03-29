@@ -96,9 +96,9 @@ class _MySkillsState extends State<MySkills> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: const Color.fromARGB(255, 1, 5, 51),
       appBar: AppBar(
-        backgroundColor: const Color(0xff252525),
+        backgroundColor: Colors.transparent,
         title: const Text(
           'Skills',
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),

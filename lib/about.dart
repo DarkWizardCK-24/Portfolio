@@ -12,7 +12,7 @@ class _MyAboutState extends State<MyAbout> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Color.fromARGB(255, 1, 5, 51),
       extendBodyBehindAppBar: true,
       appBar: AppBar(
         elevation: 0,
@@ -68,7 +68,7 @@ class _MyAboutState extends State<MyAbout> {
                   child: TextButton(
                     onPressed: () {},
                     style: TextButton.styleFrom(
-                      backgroundColor: Colors.greenAccent,
+                      backgroundColor: Colors.green.shade,
                     ),
                     child: const Text(
                       'Resume',

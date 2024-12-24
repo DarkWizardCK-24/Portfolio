@@ -35,6 +35,11 @@ const List<Map> skillItem = [
     "level": "Intermediate",
   },
   {
+    "img": "assets/skills/tailwind.png",
+    "title": "Tailwind",
+    "level": "Intermediate",
+  },
+  {
     "img": "assets/skills/python.png",
     "title": "Python",
     "level": "Intermediate",

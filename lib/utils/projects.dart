@@ -53,30 +53,6 @@ List<Projects> projectUtils = [
       lang2: 'assets/skills/chat.png',
       link: 'https://github.com/DarkWizardCK-24/Captain_Game',),
   Projects(
-      image: 'assets/projects/02.png',
-      title: 'To-Do App',
-      subtitle:
-          'An android application built using flutter and firebase for task management.',
-      lang1: 'assets/skills/flutter.png',
-      lang2: 'assets/skills/firebase.png',
-      link: 'https://github.com/DarkWizardCK-24/ToDo-App'),
-  Projects(
-      image: 'assets/projects/03.png',
-      title: 'NotesOne App',
-      subtitle:
-          'A simple note app built using flutter with CRUD oprations and sqflite to handle the database of the application.',
-      lang1: 'assets/skills/flutter.png',
-      lang2: 'assets/skills/sql.png',
-      link: 'https://github.com/DarkWizardCK-24/NotesOne_App'),
-  Projects(
-      image: 'assets/projects/04.png',
-      title: 'To-Do WebApp',
-      subtitle:
-          'To-Do web app built using React js with simple functionality of Javascript, HTML AND CSS and localstorage for storing data.',
-      lang1: 'assets/skills/js.png',
-      lang2: 'assets/skills/react.png',
-      link: 'https://github.com/DarkWizardCK-24/To-Do-WebApp'),
-  Projects(
       image: 'assets/projects/05.png',
       title: 'Airport Management System',
       subtitle:
